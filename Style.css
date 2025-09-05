@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Wrapper */
+.bigbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between box1 and navbar */
+}
+
+/* Weather Info Box */
+.box1 {
+    height: auto;
+    width: 300px;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* space between weather info */
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Each text block */
+.location {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.temp {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.date-time {
+    font-size: 1rem;
+    color: #555;
+}
+
+.contion {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #666;
+}
+
+/* Navbar / Search */
+.navbar {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.searchbar input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
